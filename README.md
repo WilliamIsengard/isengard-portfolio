@@ -1,2 +1,2 @@
 # isengard-portfolio
-Portfolio for personal website project
+Web developer portfolio for personal website project
