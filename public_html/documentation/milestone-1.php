@@ -13,9 +13,11 @@
 						<p><strong>Audience:</strong> Hiring managers.</p>
 						<p><strong>Goal:</strong> Find a job!</p>
 					</div>
+					<p></p>
+					<p></p>
 				<h3>Persona</h3>
 					<div>
-						<p><strong>Name:<strong> John Doe</p>
+						<p><strong>Name:</strong> John Doe</p>
 						<p><strong>Age:</strong> 34 </p>
 						<p><strong>Job:</strong> CTO at Meow Wolf </p>
 						<p><strong>Role:</strong> Oversees technology strategy and manages team responsible for web presence of company.</p>
