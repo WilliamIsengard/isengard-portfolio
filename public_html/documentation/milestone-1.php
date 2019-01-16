@@ -14,6 +14,7 @@
 						<li><strong>Goal:</strong> Get hired as an entry-level software developer at a local progressive company.</li>
 					</ul>
 				<h3>Persona</h3>
+					<img src="https://media.licdn.com/dms/image/C5603AQFaLssoFspx9A/profile-displayphoto-shrink_800_800/0?e=1553126400&v=beta&t=xIXh3zqel15eIOE75bbAOxSTy0lXSCkgOAR86dseq3g" alt="Corvas Brinkerhoff" style="width:250px;height:250px;"/>
 					<ul>
 						<li><strong>Name:</strong> Corvas Brinkerhoff</li>
 						<li><strong>Age:</strong> 34 </li>
