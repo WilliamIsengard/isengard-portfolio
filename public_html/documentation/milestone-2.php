@@ -21,7 +21,6 @@
 				<img src= "how-can-i-be-reached-wireframe.png" alt="How Can I Be Reached? Wireframe"/>
 			<h2>Full Screen Layout</h2>
 				<img src= "full-screen-wireframe.png" alt="Full Screen Wireframe"/>
-
 	</body>
 </html>
 
