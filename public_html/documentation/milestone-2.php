@@ -14,12 +14,13 @@
 			<p></p>
 			<strong>How Can I Be Reached?: </strong>This section will contain a simple contact form, my professional email address, and additional links to my professional social media profiles: LinkedIn, Twitter, GitHub, Dribbble. (These will also be linked to in the footer site wide via icons.)
 		<h1>Wireframes</h1>
-			<img src= "who-am-i-wireframe.png" alt="Who Am I? Wireframe"/>
-			<img src= "what-do-i-do-wireframe.png" alt="What Do I Do? Wireframe"/>
-			<img src= "can-i-help-you-wireframe.png" alt="Can I Help You? Wireframe"/>
-			<img src= "how-can-i-be-reached-wireframe.png" alt="How Can I Be Reached? Wireframe"/>
-			<p></p>
-			<img src= "desktop-wireframe.png" alt="Desktop Wireframe"/>
+			<h2>Mobile Layout</h2>
+				<img src= "who-am-i-wireframe.png" alt="Who Am I? Wireframe"/>
+				<img src= "what-do-i-do-wireframe.png" alt="What Do I Do? Wireframe"/>
+				<img src= "can-i-help-you-wireframe.png" alt="Can I Help You? Wireframe"/>
+				<img src= "how-can-i-be-reached-wireframe.png" alt="How Can I Be Reached? Wireframe"/>
+			<h2>Full Screen Layout</h2>
+				<img src= "full-screen-wireframe.png" alt="Full Screen Wireframe"/>
 
 	</body>
 </html>
