@@ -1,27 +1,24 @@
-.header {
+/* Adds styling to header and fixes position on page */
+.headshot {
   height: 10%;
   width: 100%;
   position: fixed;
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 25%;
-  padding-right: 25%;
+  text-align: center;
+  background-color: blue;
 }
 
-/* header > img {
-  height: 100%;
-  width: auto;
-  justify-content: center;
-} */
-
-.body {
-  padding-top: 20%;
+/* Specifies background color and font family */
+body {
   background-color: #7cdaff;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* Adds text stroke (outline) to text and provides fallback color for unsupported browsers */
+/* Applies top padding to body text to prevent header overlap */
+.body {
+  padding-top: 20%;
+}
 
+/* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
 h1 {
   -webkit-text-fill-color: #ff7cac;
   -webkit-text-stroke-width: 1px;
@@ -30,7 +27,7 @@ h1 {
   text-align: center;
 }
 
-/* Sets text font color and text shadow */
+/* Adds text stroke (outline) to body text and provides fallback color for unsupported browsers */
 .info {
   -webkit-text-fill-color: #ffe77c;
   -webkit-text-stroke-width: 1px;
