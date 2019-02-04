@@ -9,7 +9,7 @@
 
 /* Specifies background color and font family */
 body {
-  background-color: #7cdaff;
+  background-color: linear-gradient(#42d1f4, #a1eafc, #42d1f4);
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
