@@ -2,15 +2,13 @@ header {
   height: 10%;
   width: 100%;
   position: fixed;
-  background-color: #a9fcfc;
-  margin:0px auto;
 }
 
-header > img {
+/* header > img {
   height: 100%;
   width: auto;
   justify-content: center;
-}
+} */
 
 body {
   background-color: #7cdaff;
