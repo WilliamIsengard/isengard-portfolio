@@ -1,9 +1,26 @@
-header {
+.header {
+  width:100%;
+  height:100px;
+  background: #26b;
+  color: #fff;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: height 500ms, background 500ms;
+}
+
+.header.tiny {
+  height:40px;
+  background: #aaa;
+}
+
+/* header {
   height: 50px;
   width: 100%;
   position: fixed;
   background-color: #a9fcfc;
-}
+  margin:0px auto;
+} */
 
 h1 {
   color: blue;
