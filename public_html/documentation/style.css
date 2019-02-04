@@ -1,15 +1,25 @@
 header {
-  height: 50px;
+  height: 10%;
   width: 100%;
   position: fixed;
   background-color: #a9fcfc;
   margin:0px auto;
 }
 
-h1 {
-  color: blue;
+header > img {
+  height: 100%;
+  width: auto;
+  justify-content: center;
 }
 
-.info2 {
-  height: 500em;
+body {
+  background-color: #7cdaff;
+}
+
+h1 {
+  color: #ff7cac;
+}
+
+.info {
+  color: #ffe77c;
 }
