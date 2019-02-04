@@ -12,12 +12,20 @@ header {
 
 body {
   background-color: #7cdaff;
+  font-family: "comic sans", fantasy;
 }
 
+/* Adds text stroke (outline) to text and provides fallback color for unsupported browsers */
+
 h1 {
+  -webkit-text-fill-color: #ff7cac;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   color: #ff7cac;
 }
 
+/* Sets text font color and text shadow */
 .info {
   color: #ffe77c;
+  text-shadow: black 1px 0 10px;
 }
