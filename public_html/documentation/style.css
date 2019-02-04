@@ -1,7 +1,11 @@
-header {
+.header {
   height: 10%;
   width: 100%;
   position: fixed;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 /* header > img {
@@ -10,9 +14,10 @@ header {
   justify-content: center;
 } */
 
-body {
+.body {
+  padding-top: 20%;
   background-color: #7cdaff;
-  font-family: "comic sans", fantasy;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /* Adds text stroke (outline) to text and provides fallback color for unsupported browsers */
@@ -22,10 +27,14 @@ h1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: #ff7cac;
+  text-align: center;
 }
 
 /* Sets text font color and text shadow */
 .info {
+  -webkit-text-fill-color: #ffe77c;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   color: #ffe77c;
-  text-shadow: black 1px 0 10px;
+  text-align: center;
 }
