@@ -1,6 +1,3 @@
-<?
 $(window).on("scroll touchmove", function () {
-  $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 0);
+    $('#header_nav').toggleClass('tiny', $(document).scrollTop() > 0);
 });
-
-/?>

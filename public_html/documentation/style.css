@@ -1,17 +1,21 @@
-header {
-  width:100%;
-  height:100px;
-  background: #26b;
-  color: #fff;
-  position:fixed;
-  top:0;
-  left:0;
-  transition: height 500ms, background 500ms;
+body {
+    height:1000px;
+    width:100%;
+    background-color:#eee;
 }
-
-header.tiny {
-  height:40px;
-  background: #aaa;
+.header {
+    width:100%;
+    height:100px;
+    background: #26b;
+    color: #fff;
+    position:fixed;
+    top:0;
+    left:0;
+    transition: height 500ms, background 500ms;
+}
+.header.tiny {
+    height:40px;
+    background: #aaa;
 }
 
 /* header {
