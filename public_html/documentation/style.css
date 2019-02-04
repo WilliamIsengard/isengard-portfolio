@@ -13,15 +13,18 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
 } */
 
+/* Applies top padding to body text to prevent header overlap, set font family, and applied linear gradient background*/
 .simple-linear {
   background: linear-gradient(#42d1f4, #afefff, #42d1f4);
-}
-
-/* Applies top padding to body text to prevent header overlap */
-.body {
   padding-top: 20%;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
+/* Applies top padding to body text to prevent header overlap
+.body {
+  padding-top: 20%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}*/
 
 /* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
 h1 {
