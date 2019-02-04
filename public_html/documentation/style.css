@@ -1,3 +1,14 @@
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background-color: #a9fcfc;
+}
+
 h1 {
   color: blue;
+}
+
+.info2 {
+  height: 1000em;
 }
