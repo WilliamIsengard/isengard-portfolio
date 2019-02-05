@@ -7,39 +7,29 @@
   background-color: blue;
 }
 
-/* Specifies background color and font family */
-/* body {
-  background-color: #7cdaff;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-} */
-
-/* Applies top padding to body text to prevent header overlap, set font family, and applied linear gradient background*/
-.simple-linear {
-  background: linear-gradient(#42d1f4, #afefff, #42d1f4);
-  padding-top: 20%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-/* Applies top padding to body text to prevent header overlap
+/* Applies top padding to body text to prevent header overlap, set font family, and applied background*/
 .body {
+  background: #9DD0E9;
   padding-top: 20%;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 /* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
 h1 {
-  -webkit-text-fill-color: #ff7cac;
+  -webkit-text-fill-color: #FFDA79;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  color: #ff7cac;
+  color: #FFDA79;
   text-align: center;
 }
 
 /* Adds text stroke (outline) to body text and provides fallback color for unsupported browsers */
 .info {
-  -webkit-text-fill-color: #ffe77c;
+  -webkit-text-fill-color: #FF9579;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  color: #ffe77c;
+  color: #FF9579;
   text-align: center;
 }
