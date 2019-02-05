@@ -1,3 +1,9 @@
+/* Adds background color and font family for site */
+body {
+  background: #9DD0E9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* Adds styling to header and fixes position on page */
 .headshot {
   height: 10%;
@@ -9,9 +15,7 @@
 
 /* Applies top padding to body text to prevent header overlap, set font family, and applied background*/
 .body {
-  background: #9DD0E9;
   padding-top: 20%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding-left: 2rem;
   padding-right: 2rem;
 }
