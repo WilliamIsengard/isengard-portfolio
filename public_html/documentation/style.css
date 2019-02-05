@@ -12,8 +12,8 @@
   background: #9DD0E9;
   padding-top: 20%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
