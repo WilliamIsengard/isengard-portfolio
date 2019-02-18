@@ -1,5 +1,5 @@
 /* Adds background color and font family for site */
-.bodySection {
+body {
   background: #b7d9f7;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -14,7 +14,7 @@ h1 {
 }
 
 /* Adds text stroke (outline) to body text and provides fallback color for unsupported browsers */
-.info {
+p {
   -webkit-text-fill-color: #FF9579;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -23,6 +23,6 @@ h1 {
 }
 
 /* Specifies font size for navBar */
-.navBarSection {
+.navBar {
   font-size: 12px;
 }
