@@ -4,22 +4,6 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Adds styling to header and fixes position on page */
-.headshot {
-  height: 10%;
-  width: 100%;
-  position: fixed;
-  text-align: center;
-  background-color: blue;
-}
-
-/* Applies top padding to body text to prevent header overlap, set font family, and applied background*/
-.body {
-  padding-top: 20%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 /* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
 h1 {
   -webkit-text-fill-color: #FFDA79;
