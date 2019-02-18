@@ -1,6 +1,6 @@
 /* Adds background color and font family for site */
-body {
-  background: #9DD0E9;
+.bodySection {
+  background: #b7d9f7;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -20,4 +20,9 @@ h1 {
   -webkit-text-stroke-color: black;
   color: #FF9579;
   text-align: center;
+}
+
+/* Specifies font size for navBar */
+.navBarSection {
+  font-size: 12px;
 }
