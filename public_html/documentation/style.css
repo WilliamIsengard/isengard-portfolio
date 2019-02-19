@@ -1,7 +1,7 @@
 /* Adds background color and font family for site */
-.main {
-  background: #b7d9f7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background: black;
+
 }
 
 /* Adds text stroke (outline) to h1 tags and provides fallback color for unsupported browsers */
@@ -11,6 +11,7 @@ h1 {
   -webkit-text-stroke-color: black;
   color: #FFDA79;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Adds text stroke (outline) to body text and provides fallback color for unsupported browsers */
@@ -20,9 +21,14 @@ p {
   -webkit-text-stroke-color: black;
   color: #FF9579;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Specifies font size for navBar */
 .navBar {
   font-size: 12px;
+}
+
+.whoAmI {
+  color: purple;
 }
