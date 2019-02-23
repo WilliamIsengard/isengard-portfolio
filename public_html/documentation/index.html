@@ -30,7 +30,7 @@
 
 		<!--Dynamic NavBar -->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand" href="#">William Isengard- Fullstack Web Developer</a>
+			<a class="navbar-brand" href="#">William Isengard</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -54,11 +54,11 @@
 
 	<!-- Dynamic Header-->
 	<!-- <section class="row justify-content-center"> -->
-	<div class="row bg-light">
+	<div class="row bg-light z-depth-3">
 		<div class="col-md-2 mx-auto mt-5 pt-5">
 			<div class="card border-0 bg-light">
-				<img id="headshot" class="card-img-top img-responsive rounded-circle d-block" src="headshot.jpg" alt="William Isengard Headshot">
-				<img id="splatterBG" class="card-img-top img-responsive d-block" src="splatter.png" alt="Splatter Background">
+				<img id="headshot" class="card-img-top img-fluid rounded-circle d-block" src="headshot.jpg" alt="William Isengard Headshot">
+				<!-- <img id="splatterBG" class="card-img-top img-fluid d-block" src="splatter.png" alt="Splatter Background"> -->
 				<div class="card-body">
 					<p class="card-text text-center border rounded">William Isengard<br>Fullstack Web Developer</p>
 				</div>
@@ -76,85 +76,136 @@
 					goal of learning to program. I attended the intensive web developer bootcamp offered by CNM Ingenuity and built a foundation for my new career.</p>
 				<p>I previously received a Bachelor's of Arts degree (sociology and communication) from UNM and completed 2/3 of an MBA from University of Phoenix before pivoting careers.</p>
 				<p>I am the proud father to an aspiring 4-year old scientist named Leon and married to my best friend Andriana. We are a family of proud geeks and we undertake a variety of adventures during our free time.</p>
-			</div>
-		</div>
+				<!-- Creates Image Cards -->
+				<div class="container mx-auto d-block px-5">
+					<div class="row">
 
-		<!--Image Carousel -->
-		<div class="row pb-5 bg-secondary">
-			<div class="col-4 mx-auto p-4 border-1">
-
-				<!--Carousel Wrapper-->
-				<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="ride">
-
-					<!--Indicators-->
-					<ol class="carousel-indicators">
-						<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel-example-2" data-slide-to="1"></li>
-						<li data-target="#carousel-example-2" data-slide-to="2"></li>
-					</ol>
-
-					<!--Slides-->
-					<div class="carousel-inner" role="listbox">
-						<div class="carousel-item active">
-							<div class="view">
-								<img class="d-block w-100" src="jwSmartSolutions.png" alt="First slide">
-								<div class="mask rgba-black-light"></div>
-							</div>
-							<div class="carousel-caption font-weight-bold text-danger">
-								<h3 class="h3-responsive">JW Smart Solutions</h3>
-								<p>Founder/Business Development</p>
+						<div id="jwsmartsolutions" class="col-2 col-md p-2">
+							<div class="card border-0">
+								<img class="card-img-top rounded-circle border" src="jwSmartSolutions.png" alt="JW Smart Solutions">
+								<div class="card-body">
+									<p class="card-text text-center border rounded bg-light">Cofounder</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="view">
-								<img class="d-block w-100" src="nmSolarGroup.png" alt="Second slide">
-								<div class="mask rgba-black-strong"></div>
-							</div>
-							<div class="carousel-caption font-weight-bold text-danger">
-								<h3 class="h3-responsive">NM Solar Group</h3>
-								<p>CEO/Business Development</p>
+						<div id="nmsolargroup" class="col-2 col-md p-2">
+							<div class="card border-0">
+								<img class="card-img-top rounded-circle border" src="nmSolarGroup.png" alt="NM Solar Group">
+								<div class="card-body">
+									<p class="card-text text-center border rounded bg-light">CEO/Operations Management</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="view">
-								<img class="d-block w-100" src="solarCity.png" alt="Third slide">
-								<div class="mask rgba-black-slight"></div>
-							</div>
-							<div class="carousel-caption font-weight-bold text-danger">
-								<h3 class="h3-responsive">SolarCity</h3>
-								<p>Field Energy Consultant</p>
+						<div id="solarcity" class="col-2 col-md p-2">
+							<div class="card border-0">
+								<img class="card-img-top rounded-circle border" src="solarCity.png" alt="Solar City">
+								<div class="card-body">
+									<p class="card-text text-center border rounded bg-light">Field Energy Consultant</p>
+								</div>
 							</div>
 						</div>
 
-						<div class="carousel-item">
-							<div class="view">
-								<img class="d-block w-100" src="hpInc.png" alt="Third slide">
-								<div class="mask rgba-black-slight"></div>
-							</div>
-							<div class="carousel-caption font-weight-bold text-danger">
-								<h3 class="h3-responsive">HP, Inc.</h3>
-								<p>Corporate Account Manager</p>
+						<div id="hp" class="col-2 col-md p-2">
+							<div class="card border-0">
+								<img class="card-img-top rounded-circle border" src="hpInc.png" alt="HP Inc">
+								<div class="card-body">
+									<p class="card-text text-center border rounded bg-light">Corporate Account Manager</p>
+								</div>
 							</div>
 						</div>
 
 					</div>
-
-					<!--Controls-->
-					<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
-
 				</div>
 			</div>
 		</div>
+
+
 	</section>
+
+	<!--What Do I Do? Section -->
+	<!--Image Carousel -->
+
+	<h1>Who Am I?</h1>
+	<p>My name is William Isengard and I am a fullstack web developer. After 5 years in technology consulting and corporate account management at HP, Inc. and leading the rapidly-growing solar company NM Solar Group I decided to pursue a life-long
+		goal of learning to program. I attended the intensive web developer bootcamp offered by CNM Ingenuity and built a foundation for my new career.</p>
+	<div class="container">
+	<div class="row pb-5 bg-secondary">
+		<div class="col-4 mx-auto p-4 border-1">
+
+			<!--Carousel Wrapper-->
+			<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="ride">
+
+				<!--Indicators-->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-2" data-slide-to="1"></li>
+					<li data-target="#carousel-example-2" data-slide-to="2"></li>
+				</ol>
+
+				<!--Slides-->
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<div class="view">
+							<img class="d-block w-100" src="jwSmartSolutions.png" alt="First slide">
+							<div class="mask rgba-black-light"></div>
+						</div>
+						<div class="carousel-caption font-weight-bold text-danger">
+							<h3 class="h3-responsive">JW Smart Solutions</h3>
+							<p>Founder/Business Development</p>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="view">
+							<img class="d-block w-100" src="nmSolarGroup.png" alt="Second slide">
+							<div class="mask rgba-black-strong"></div>
+						</div>
+						<div class="carousel-caption font-weight-bold text-danger">
+							<h3 class="h3-responsive">NM Solar Group</h3>
+							<p>CEO/Business Development</p>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="view">
+							<img class="d-block w-100" src="solarCity.png" alt="Third slide">
+							<div class="mask rgba-black-slight"></div>
+						</div>
+						<div class="carousel-caption font-weight-bold text-danger">
+							<h3 class="h3-responsive">SolarCity</h3>
+							<p>Field Energy Consultant</p>
+						</div>
+					</div>
+
+					<div class="carousel-item">
+						<div class="view">
+							<img class="d-block w-100" src="hpInc.png" alt="Third slide">
+							<div class="mask rgba-black-slight"></div>
+						</div>
+						<div class="carousel-caption font-weight-bold text-danger">
+							<h3 class="h3-responsive">HP, Inc.</h3>
+							<p>Corporate Account Manager</p>
+						</div>
+					</div>
+
+				</div>
+
+				<!--Controls-->
+				<a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+			</div>
+		</div>
+	</div>
+	</div>
 
 	<!-- What Do I Do? Section -->
 	<section id="whatDoIDoSection">
@@ -167,7 +218,6 @@
 				</div>
 			</div>
 		</div>
-	</section>
 
 	<!-- Can I Help You? Section -->
 	<section id="canIHelpYouSection">

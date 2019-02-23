@@ -23,12 +23,6 @@ h5 {
   color: black;
 }
 
-#headshot, #splatterBG {
-    opacity: 1;
+#splatterBG, # {
     position: absolute;
-    margin:auto;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
 }
