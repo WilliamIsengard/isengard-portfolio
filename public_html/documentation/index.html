@@ -18,6 +18,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
+	<!-- Javascript -->
+	<script src="script.js" crossorigin="anonymous"></script>
+
 	<title>William Isengard Fullstack Web Developer</title>
 
 </head>
@@ -54,15 +57,25 @@
 
 	<!-- Dynamic Header-->
 	<!-- <section class="row justify-content-center"> -->
-	<div class="row bg-light z-depth-3">
-		<div class="col-md-2 mx-auto mt-5 pt-5">
+	<div class="container-fluid picContainer">
+	<div class="row-fluid bg-light z-depth-3">
+		<div class="col-md-6">
+			<img id="splatter" class="position-absolute d-block" src="headshot.jpg"/>
+			<div class="col-md-6 pic2">
+				<img src="splatter" />
+			</div>
+			</div>
+			<div class="row-fluid">
+				<div class="col-md-2 mx-auto mt-5 pt-5">
 			<div class="card border-0 bg-light">
-				<img id="headshot" class="card-img-top img-fluid rounded-circle d-block" src="headshot.jpg" alt="William Isengard Headshot">
+				<img id="headshot" class="card-img-top position-relative img-fluid rounded-circle d-block" src="headshot.jpg" alt="William Isengard Headshot">
 				<!-- <img id="splatterBG" class="card-img-top img-fluid d-block" src="splatter.png" alt="Splatter Background"> -->
 				<div class="card-body">
 					<p class="card-text text-center border rounded">William Isengard<br>Fullstack Web Developer</p>
 				</div>
 			</div>
+		</div>
+	</div>
 		</div>
 	</div>
 	<!-- </section> -->
