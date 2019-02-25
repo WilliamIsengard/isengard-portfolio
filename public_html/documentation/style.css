@@ -17,10 +17,10 @@ p {
 /* Specifies font size, shadow, and opacity for navBar */
 nav {
   font-size: 18px;
-  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: lightgrey;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(47, 100, 125, 0.7);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(47, 100, 125, 0.7);
+  box-shadow: 0px 10px 5px 0px rgba(47, 100, 125, 0.7);
+  background-color: #4699c1;
   opacity: .9;
 }
 
@@ -28,9 +28,18 @@ nav {
 #main {
   background-image: url("background3.jpg");
   /* width: 100vw; */
-  background-position: top center;
+  background-position: top;
   background-repeat: space;
   background-size: 100vw auto;
+  background-attachment: fixed;
+}
+
+#splatter {
+  background-image: url("splatter.png");
+  /* width: 100vw; */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 50vw auto;
   background-attachment: fixed;
 }
 
@@ -52,30 +61,31 @@ nav {
 /* Who Am I? Section shadows, background color, and opacity */
 #whoAmIRow {
   /* font-size: 18px; */
-  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: #c4cdea;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
+  box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
+  background-color: #ffd054;
   opacity: .95;
 }
 
 /* Can I Help You? Section shadows, background color, and opacity */
 #canIHelpYouRow {
-  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: #c4cdea;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(125, 62, 45, 0.7), 0px 10px 5px 0px rgba(125, 62, 45, 0.7);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(125, 62, 45, 0.7), 0px 10px 5px 0px rgba(125, 62, 45, 0.7);
+  box-shadow: 0px -10px 5px 0px rgba(125, 62, 45, 0.7), 0px 10px 5px 0px rgba(125, 62, 45, 0.7);
+  background-color: #f17a5b;
   opacity: .95;
 }
 
 /* Footer section shadows, background color, and opacity */
 #footerRow {
-  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: #c4cdea;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(47, 100, 125, 0.7);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(47, 100, 125, 0.7);
+  box-shadow: 0px -10px 5px 0px rgba(47, 100, 125, 0.7);
+  background-color: #4699c1;
   opacity: .95;
 }
+/*rgba(0, 0, 0, 0.21) #2f647d*/
 
 /* Headshot shadows */
 #headshot
@@ -115,18 +125,18 @@ nav {
 #nametag
 {
     position:relative;
-    -webkit-box-shadow:0 10px 4px rgba(0, 0, 0, 0.3), 0 -10px 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 10px 4px rgba(0, 0, 0, 0.3), 0 -10px 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 10px 4px rgba(0, 0, 0, 0.3), 0 -10px 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow:0 10px 4px rgba(125, 62, 45, 0.7), 0 -10px 40px rgba(125, 62, 45, 0.7) inset;
+       -moz-box-shadow:0 10px 4px rgba(125, 62, 45, 0.7), 0 -10px 40px rgba(125, 62, 45, 0.7) inset;
+            box-shadow:0 10px 4px rgba(125, 62, 45, 0.7), 0 -10px 40px rgba(125, 62, 45, 0.7) inset;
 }
 #nametag:before, #nametag:after
 {
     content:"";
     position:absolute;
     z-index:-1;
-    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
-    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -webkit-box-shadow:0 0 20px rgba(125, 62, 45, 0.7);
+    -moz-box-shadow:0 0 20px rgba(125, 62, 45, 0.7);
+    box-shadow:0 0 20px rgba(125, 62, 45, 0.7);
     top:0;
     bottom:0;
     left:10px;
