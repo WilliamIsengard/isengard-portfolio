@@ -17,9 +17,9 @@ p {
 /* Specifies font size, shadow, and opacity for navBar */
 nav {
   font-size: 18px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
   background-color: lightgrey;
   opacity: .9;
 }
@@ -27,7 +27,7 @@ nav {
 /* Creates background image and specifies size, position, and attachment */
 #main {
   background-image: url("background.jpg");
-  height: 100%;
+  width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,6 +47,33 @@ nav {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+#whoAmIRow {
+  font-size: 18px;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  background-color: lightgrey;
+  opacity: .95;
+}
+
+#canIHelpYouRow {
+  font-size: 18px;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
+  background-color: lightgrey;
+  opacity: .95;
+}
+
+#footerRow {
+  font-size: 18px;
+  -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
+  background-color: darkGrey;
+  opacity: .95;
 }
 
 /*h5 {*/
