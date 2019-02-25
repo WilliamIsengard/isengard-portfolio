@@ -27,7 +27,7 @@ nav {
 /* Creates background image and specifies size, position, and attachment */
 #main {
   background-image: url("background.jpg");
-  width: 100%;
+  width: 100vw;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,47 +49,32 @@ nav {
   height: auto;
 }
 
+/* Who Am I? Section shadows, background color, and opacity */
 #whoAmIRow {
-  font-size: 18px;
+  /* font-size: 18px; */
   -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: lightgrey;
+  background-color: #c4cdea;
   opacity: .95;
 }
 
+/* Can I Help You? Section shadows, background color, and opacity */
 #canIHelpYouRow {
-  font-size: 18px;
+  /* font-size: 18px; */
   -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21), 0px 10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: lightgrey;
+  background-color: #c4cdea;
   opacity: .95;
 }
 
+/* Foort section shadows, background color, and opacity */
 #footerRow {
-  font-size: 18px;
+  /* font-size: 18px; */
   -webkit-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px -10px 5px 0px rgba(0, 0, 0, 0.21);
-  background-color: darkGrey;
+  background-color: #c4cdea;
   opacity: .95;
 }
-
-/*h5 {*/
-/*color: black;*/
-/*}*/
-/*#splatterBG, # {*/
-/*position: absolute;*/
-/*}*/
-/*.col-md-6{*/
-/*margin: 1px;*/
-/*}*/
-/*.picContainer {position:relative;}*/
-/*.pic2 {position:absolute; top:0px; left:0px;}*/
-/*body {*/
-/*background-image: url(background.jpg) no-repeat fixed center center;*/
-/*}*/
-/*body, html {*/
-/*height: 100%;*/
-/*}*/
