@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- custom CSS stylesheet -->
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" />
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -73,10 +73,10 @@
 		<div class="container-fluid">
 			<div class="row-fluid" id="splatter">
 				<div class="col-md-2 mx-auto mt-5 pt-5">
-					<img id="headshot" class="card-img-top position-relative img-fluid rounded-circle d-block" src="headshot.jpg" alt="William Isengard Headshot">
+					<img id="headshot" class="card-img-top position-relative img-fluid rounded-circle d-block" src="images/headshot.jpg" alt="William Isengard Headshot">
 					<br>
 					<br>
-					<img id="nametag" class="card-img-top position-relative img-fluid rounded d-block" src="nametag.png" alt="William Isengard Fullstack Web Developr">
+					<img id="nametag" class="card-img-top position-relative img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
 					<br>
 					<br>
 				</div>
@@ -99,27 +99,27 @@
 						<div class="row">
 
 							<div id="jwsmartsolutions" class="col-2 col-md p-2">
-								<img id="jwSmartSolutionsImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="jwSmartSolutions.png" alt="JW Smart Solutions">
+								<img id="jwSmartSolutionsImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions">
 							</div>
 
 							<div id="nmsolargroup" class="col-2 col-md p-2">
-								<img id="nmSolarGroupImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="nmSolarGroup.jpg" alt="NM Solar Group">
+								<img id="nmSolarGroupImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group">
 							</div>
 
 							<div id="solarcity" class="col-2 col-md p-2">
-								<img id="solarCityImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="solarCity.png" alt="SolarCity">
+								<img id="solarCityImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity">
 							</div>
 
 							<div id="hpinc" class="col-2 col-md p-2">
-								<img id="hpIncImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="hpInc.png" alt="HP Inc">
+								<img id="hpIncImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc">
 							</div>
 
 							<div id="unm" class="col-2 col-md p-2">
-								<img id="unmImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="unm.jpg" alt="UNM">
+								<img id="unmImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM">
 							</div>
 
 							<div id="uofp" class="col-2 col-md p-2">
-								<img id="uofpImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="uofp.jpg" alt="University of Phoenix">
+								<img id="uofpImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix">
 							</div>
 
 						</div>
@@ -153,27 +153,27 @@
 
 									<div class="carousel-inner" role="listbox">
 										<div class="carousel-item active">
-											<img class="d-block w-100" src="php.png" alt="PHP">
+											<img class="d-block w-100" src="images/php.png" alt="PHP">
 										</div>
 
 										<div class="carousel-item">
-											<img class="d-block w-100" src="javascript.png" alt="JavaScript">
+											<img class="d-block w-100" src="images/javascript.png" alt="JavaScript">
 										</div>
 
 										<div class="carousel-item">
-											<img class="d-block w-100" src="html.png" alt="HTML">
+											<img class="d-block w-100" src="images/html.png" alt="HTML">
 										</div>
 
 										<div class="carousel-item">
-											<img class="d-block w-100" src="css.png" alt="CSS">
+											<img class="d-block w-100" src="images/css.png" alt="CSS">
 										</div>
 
 										<div class="carousel-item">
-											<img class="d-block w-100" src="bootstrap.png" alt="Bootstrap">
+											<img class="d-block w-100" src="images/bootstrap.png" alt="Bootstrap">
 										</div>
 
 										<div class="carousel-item">
-											<img class="d-block w-100" src="angular.png" alt="Angular">
+											<img class="d-block w-100" src="images/angular.png" alt="Angular">
 										</div>
 
 									</div>
@@ -273,28 +273,28 @@
 							<div class="col-md-1 mx-auto">
 								<div class="card border-0">
 									<a href="">
-										<img class="card-img-top img-fluid d-block" src="email.png" alt="Email Contact" />
+										<img class="card-img-top img-fluid d-block" src="images/email.png" alt="Email Contact" />
 									</a>
 								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
 								<div class="card border-0">
 									<a href="">
-										<img class="card-img-top img-fluid d-block" src="phone.png" alt="Phone Contact" />
+										<img class="card-img-top img-fluid d-block" src="images/phone.png" alt="Phone Contact" />
 									</a>
 								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
 								<div class="card border-0">
 									<a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
-										<img class="card-img-top img-fluid d-block" src="linkedIn.png" alt="LinkedIn Page" />
+										<img class="card-img-top img-fluid d-block" src="images/linkedIn.png" alt="LinkedIn Page" />
 									</a>
 								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
 								<div class="card border-0">
 									<a href="https://github.com/WilliamIsengard/" target=”_blank”>
-										<img class="card-img-top img-fluid d-block" src="github.png" alt="Github Repository" />
+										<img class="card-img-top img-fluid d-block" src="images/github.png" alt="Github Repository" />
 									</a>
 								</div>
 							</div>

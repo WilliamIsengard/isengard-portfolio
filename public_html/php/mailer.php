@@ -8,12 +8,12 @@
  * @author Rochelle Lewis <rlewis37@cnm.edu>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
 use \SendGrid\Mail;
-$sendgrid = new \SendGrid($sendGridSecret);
+$sendgrid = new \SendGrid($smtpSecret);
 // verify user's reCAPTCHA input
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
@@ -31,7 +31,7 @@ try {
 	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
 	$message = filter_input(INPUT_POST, "contactMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create SendGrid object
-	$emailObject = new Mail();
+	$emailObject = new \SendGrid\Mail\Mail();
 	/**
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.

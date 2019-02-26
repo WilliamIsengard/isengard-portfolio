@@ -26,7 +26,7 @@ nav {
 
 /* Creates background image and specifies size, position, and attachment */
 #main {
-  background-image: url("background3.jpg");
+  background-image: url("../images/background.jpg");
   /* width: 100vw; */
   background-position: top;
   background-repeat: repeat;
@@ -35,7 +35,7 @@ nav {
 }
 
 #splatter {
-  background-image: url("splatter.png");
+  background-image: url("../images/splatter.png");
   /* width: 100vw; */
   background-position: top;
   background-repeat: no-repeat;
