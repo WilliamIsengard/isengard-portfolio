@@ -43,6 +43,7 @@
 	<div class="container-fluid" id="main">
 
 		<!--Dynamic NavBar -->
+
 		<div class="container-fluid">
 			<nav class="navbar fixed-top navbar-expand-lg navbar-light">
 				<a class="navbar-brand" href="#">William Isengard</a>
@@ -141,7 +142,6 @@
 
 						<!--Image Carousel -->
 
-						<!-- <section class="imageCarousel"> -->
 						<div class="row pb-5 text-center">
 							<div class="col-6 mx-auto p-4 border-1">
 
@@ -192,14 +192,12 @@
 								</div>
 							</div>
 						</div>
-						<!-- </section> -->
 					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Can I Help You? Section -->
-		<!-- TODO Replace with real contact form -->
 
 		<section id="canIHelpYouSection">
 			<div class="row py-5 text-white" id="canIHelpYouRow">
@@ -210,6 +208,7 @@
 						<p>Please don't hesitate to reach out to me and we can discuss ways I can help.</p>
 
 						<!-- Contact Form -->
+
 						<form id="contact-form" action="php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="contactName">Name <span class="text-danger">*</span></label>
@@ -243,6 +242,7 @@
 							</div>
 
 							<!-- reCAPTCHA -->
+
 							<div class="g-recaptcha" data-sitekey="6LfhEpQUAAAAABiy2eAnq8x-csMb9UcH6SA202yH"></div>
 
 							<button class="btn btn-primary" type="submit"><i class="sendButton"></i>Submit</button>
@@ -250,6 +250,7 @@
 						</form>
 
 						<!--empty area for form error/success output-->
+						
 						<div class="row">
 							<div class="col-xs-12">
 								<div id="output-area"></div>
