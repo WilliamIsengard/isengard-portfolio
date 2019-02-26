@@ -73,10 +73,10 @@
 		<div class="container-fluid">
 			<div class="row-fluid" id="splatter">
 				<div class="col-md-2 mx-auto mt-5 pt-5">
-					<img id="headshot" class="card-img-top position-relative img-fluid rounded-circle d-block" src="images/headshot.jpg" alt="William Isengard Headshot">
+					<img id="headshot" class="img-fluid rounded-circle d-block" src="images/headshot.jpg" alt="William Isengard Headshot">
 					<br>
 					<br>
-					<img id="nametag" class="card-img-top position-relative img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
+					<img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
 					<br>
 					<br>
 				</div>
@@ -99,27 +99,27 @@
 						<div class="row">
 
 							<div id="jwsmartsolutions" class="col-2 col-md p-2">
-								<img id="jwSmartSolutionsImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions">
+								<img id="jwSmartSolutionsImg" class="img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions">
 							</div>
 
 							<div id="nmsolargroup" class="col-2 col-md p-2">
-								<img id="nmSolarGroupImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group">
+								<img id="nmSolarGroupImg" class="img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group">
 							</div>
 
 							<div id="solarcity" class="col-2 col-md p-2">
-								<img id="solarCityImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity">
+								<img id="solarCityImg" class="img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity">
 							</div>
 
 							<div id="hpinc" class="col-2 col-md p-2">
-								<img id="hpIncImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc">
+								<img id="hpIncImg" class="img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc">
 							</div>
 
 							<div id="unm" class="col-2 col-md p-2">
-								<img id="unmImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM">
+								<img id="unmImg" class="img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM">
 							</div>
 
 							<div id="uofp" class="col-2 col-md p-2">
-								<img id="uofpImg" class="card-img-top position-relative img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix">
+								<img id="uofpImg" class="img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix">
 							</div>
 
 						</div>
@@ -209,6 +209,7 @@
 						<p>I am excited for opportunities to help grow a business and continue to expand my developer skillset.</p>
 						<p>Please don't hesitate to reach out to me and we can discuss ways I can help.</p>
 
+						<!-- Contact Form -->
 						<form id="contact-form" action="php/mailer.php" method="post">
 							<div class="form-group">
 								<label for="contactName">Name <span class="text-danger">*</span></label>
@@ -271,32 +272,24 @@
 						<p>I can be reached via the channels below. Give me a ring and I will get back to you right away. Thanks!</p>
 						<div class="row">
 							<div class="col-md-1 mx-auto">
-								<div class="card border-0">
 									<a href="">
-										<img class="card-img-top img-fluid d-block" src="images/email.png" alt="Email Contact" />
+										<img class="img-fluid d-block" src="images/email.png" alt="Email Contact" />
 									</a>
-								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
-								<div class="card border-0">
 									<a href="">
-										<img class="card-img-top img-fluid d-block" src="images/phone.png" alt="Phone Contact" />
+										<img class="img-fluid d-block" src="images/phone.png" alt="Phone Contact" />
 									</a>
-								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
-								<div class="card border-0">
 									<a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
-										<img class="card-img-top img-fluid d-block" src="images/linkedIn.png" alt="LinkedIn Page" />
+										<img class="img-fluid d-block" src="images/linkedIn.png" alt="LinkedIn Page" />
 									</a>
-								</div>
 							</div>
 							<div class="col-md-1 mx-auto">
-								<div class="card border-0">
 									<a href="https://github.com/WilliamIsengard/" target=”_blank”>
-										<img class="card-img-top img-fluid d-block" src="images/github.png" alt="Github Repository" />
+										<img class="img-fluid d-block" src="images/github.png" alt="Github Repository" />
 									</a>
-								</div>
 							</div>
 						</div>
 					</div>
