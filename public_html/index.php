@@ -73,7 +73,7 @@
 
 		<div class="container-fluid">
 			<div class="row-fluid" id="splatter">
-				<div class="col-md-2 mx-auto mt-5 pt-5">
+				<div class="col-md-2 col-sm-3 col-xs-2 mx-auto mt-5 pt-5">
 					<img id="headshot" class="img-fluid rounded-circle d-block" src="images/headshot.jpg" alt="William Isengard Headshot">
 					<br>
 					<br>
@@ -87,8 +87,8 @@
 		<!--Who Am I? Section -->
 
 		<section id="whoAmISection">
-			<div class="row pt-5 text-white" id="whoAmIRow">
-				<div class="col-6 mx-auto p-4">
+			<div class="row pt-5 pt-md-4 pt-sm-2 text-white" id="whoAmIRow">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
 					<h1>Who Am I?</h1>
 					<p>Howdy! My name is William Isengard and I am a fullstack web developer. <br><br>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant,
 						business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br><br>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate about
@@ -96,7 +96,7 @@
 
 					<!-- Work History Images -->
 
-					<div class="container mx-auto d-block px-5">
+					<div class="container mx-auto d-block px-5 px-md-3 px-sm-1">
 						<div class="row">
 
 							<div id="jwsmartsolutions" class="col-2 col-md p-2">
@@ -134,7 +134,7 @@
 
 		<section id="whatDoIDoSection">
 			<div class="row py-5 text-muted">
-				<div class="col-6 mx-auto p-4">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
 					<h1>What Do I Do?</h1>
 					<div class="info">
 						<p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.</p>
@@ -143,7 +143,7 @@
 						<!--Image Carousel -->
 
 						<div class="row pb-5 text-center">
-							<div class="col-6 mx-auto p-4 border-1">
+							<div class="col-md-6 col-sm-5 col-xs-4 mx-auto p-4 p-md-3 p-sm-2 p-xs-1 border-1">
 
 								<!--Carousel Wrapper-->
 
@@ -201,7 +201,7 @@
 
 		<section id="canIHelpYouSection">
 			<div class="row py-5 text-white" id="canIHelpYouRow">
-				<div class="col-6 mx-auto p-4 border-1">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
 					<h1>Can I Help You?</h1>
 					<div class="info">
 						<p>I am excited for opportunities to help grow a business and continue to expand my developer skillset.</p>
@@ -250,7 +250,7 @@
 						</form>
 
 						<!--empty area for form error/success output-->
-						
+
 						<div class="row">
 							<div class="col-xs-12">
 								<div id="output-area"></div>
@@ -266,28 +266,28 @@
 		<!-- TODO Add phone number and email functions and remove white backgrounds from images -->
 
 		<section id="howCanIBeReachedSection">
-			<div class="row py-5 text-muted">
-				<div class="col-6 mx-auto p-4 border-1">
+			<div class="row py-5 py-md-3 py-sm-0 text-muted">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2 p-xs-1">
 					<h1 id="howCanIBeReached">How Can I Be Reached?</h1>
 					<div class="info">
 						<p>I can be reached via the channels below. Give me a ring and I will get back to you right away. Thanks!</p>
 						<div class="row">
-							<div class="col-md-1 mx-auto">
+							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
 										<img class="img-fluid d-block" src="images/email.png" alt="Email Contact" />
 									</a>
 							</div>
-							<div class="col-md-1 mx-auto">
+							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
 										<img class="img-fluid d-block" src="images/phone.png" alt="Phone Contact" />
 									</a>
 							</div>
-							<div class="col-md-1 mx-auto">
+							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
 										<img class="img-fluid d-block" src="images/linkedIn.png" alt="LinkedIn Page" />
 									</a>
 							</div>
-							<div class="col-md-1 mx-auto">
+							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://github.com/WilliamIsengard/" target=”_blank”>
 										<img class="img-fluid d-block" src="images/github.png" alt="Github Repository" />
 									</a>
@@ -300,7 +300,7 @@
 
 		<!--Page Footer -->
 
-		<div class="row py-5 text-white text-center" id="footerRow">
+		<div class="row py-5 py-md-3 py-sm-1 text-white text-center" id="footerRow">
 			<div class="col">
 				<footer>William Isengard- Full Stack Web Developer</footer>
 			</div>
