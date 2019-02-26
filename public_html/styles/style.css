@@ -29,7 +29,7 @@ nav {
   background-image: url("background3.jpg");
   /* width: 100vw; */
   background-position: top;
-  background-repeat: space;
+  background-repeat: repeat;
   background-size: 100vw auto;
   background-attachment: fixed;
 }
