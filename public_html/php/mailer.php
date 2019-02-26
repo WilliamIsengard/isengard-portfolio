@@ -19,9 +19,9 @@ $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 try {
 	// if there's a reCAPTCHA error, throw an exception
-//	if (!$resp->isSuccess()) {
-//		throw(new Exception("reCAPTCHA error!"));
-//	}
+	if (!$resp->isSuccess()) {
+		throw(new Exception("reCAPTCHA error!"));
+	}
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
