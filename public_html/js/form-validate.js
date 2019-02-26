@@ -14,25 +14,22 @@ $(document).ready(function(){
   **/
 
   /* begin validate function here */
-  $("#my-contact-form").validate({
-
-    // setup handling of form errors
+  $("#contact-form").validate({
     debug: true,
     errorClass: "alert alert-danger",
     errorLabelContainer: "#output-area",
     errorElement: "div",
-
     // rules here define what is good or bad input
     // each rule starts with the form input element's NAME attribute
     rules: {
-      name: {
+      contactName: {
         required: true
       },
-      email: {
+      contactEmail: {
         email: true,
         required: true
       },
-      message: {
+      contactMessage: {
         required: true,
         maxlength: 2000
       }
