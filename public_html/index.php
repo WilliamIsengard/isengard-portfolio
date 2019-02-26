@@ -87,7 +87,7 @@
 		<!--Who Am I? Section -->
 
 		<section id="whoAmISection">
-			<div class="row pt-5 pt-md-4 pt-sm-2 text-white" id="whoAmIRow">
+			<div class="row pt-5 text-white" id="whoAmIRow">
 				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
 					<h1>Who Am I?</h1>
 					<p>Howdy! My name is William Isengard and I am a fullstack web developer. <br><br>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant,
@@ -133,8 +133,8 @@
 		<!-- What Do I Do? Section -->
 
 		<section id="whatDoIDoSection">
-			<div class="row py-5 text-muted">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
+			<div class="row pb-lg-5 pb-md-4 pb-sm-2 pt-5 text-muted">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto p-lg-4 p-md-3 p-sm-2 p-xs-1">
 					<h1>What Do I Do?</h1>
 					<div class="info">
 						<p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.</p>
@@ -142,8 +142,8 @@
 
 						<!--Image Carousel -->
 
-						<div class="row pb-5 text-center">
-							<div class="col-md-6 col-sm-5 col-xs-4 mx-auto p-4 p-md-3 p-sm-2 p-xs-1 border-1">
+						<div class="row">
+							<div class="col-md-6 col-sm-5 col-xs-4 mx-auto p-ld-4 p-md-3 p-sm-2 p-xs-2">
 
 								<!--Carousel Wrapper-->
 
