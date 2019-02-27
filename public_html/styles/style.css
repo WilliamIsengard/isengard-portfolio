@@ -34,14 +34,14 @@ nav {
   background-attachment: fixed;
 }
 
-#splatter {
+/* #splatter {
   background-image: url("../images/splatter.png");
   /* width: 100vw; */
   background-position: top;
   background-repeat: no-repeat;
   background-size: 75vw auto;
   background-attachment: fixed;
-}
+} */
 
 /* Carousel Controls */
 .carousel-control-prev-icon {
@@ -88,7 +88,7 @@ nav {
 /*rgba(0, 0, 0, 0.21) #2f647d*/
 
 /* Headshot shadows */
-#headshot
+/* #headshot
 {
     position:relative;
     -webkit-box-shadow:0 10px 4px rgba(0, 0, 0, 0.3), 0 -10px 40px rgba(0, 0, 0, 0.1) inset;
@@ -119,7 +119,7 @@ nav {
         -ms-transform:skew(8deg) rotate(3deg);
          -o-transform:skew(8deg) rotate(3deg);
             transform:skew(8deg) rotate(3deg);
-}
+} */
 
 /* Nametag shadows */
 #nametag

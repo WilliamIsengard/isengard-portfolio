@@ -13,6 +13,9 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 	<!-- Bootstrap Files: jQuery, Popper.js, and Bootstrap JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -35,8 +38,6 @@
 	<title>William Isengard Fullstack Web Developer</title>
 
 </head>
-
-<!-- TODO Add sizing, margins, and padding for all breakpoints- xs, sm, md, lg , and xl -->
 
 <body>
 
@@ -72,14 +73,14 @@
 		<!-- Header -->
 
 		<div class="container-fluid">
-			<div class="row-fluid" id="splatter">
-				<div class="col-md-2 col-sm-3 col-xs-2 mx-auto mt-5 pt-5">
-					<img id="headshot" class="img-fluid rounded-circle d-block" src="images/headshot.jpg" alt="William Isengard Headshot">
-					<br>
-					<br>
+			<div class="row-fluid" id="headshotrow">
+				<div class="col-lg-4 col-md-6 col-sm-8 col-xs-10 mx-auto mt-5 pt-5">
+					<img id="headshot" class="img-fluid" src="images/splatter2.png" alt="William Isengard Headshot With Splatter Background">
+				</div>
+			</div>
+			<div class="row-fluid" id="nametagrow">
+				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-7 mx-auto mt-1 py-5">
 					<img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
-					<br>
-					<br>
 				</div>
 			</div>
 		</div>
@@ -132,6 +133,7 @@
 
 		<!-- What Do I Do? Section -->
 
+<div class="container-fluid">
 		<section id="whatDoIDoSection">
 			<div class="row pb-lg-5 pb-md-4 pb-sm-2 pt-5 text-muted">
 				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto p-lg-4 p-md-3 p-sm-2 p-xs-1">
@@ -196,6 +198,7 @@
 				</div>
 			</div>
 		</section>
+	</div>
 
 		<!-- Can I Help You? Section -->
 
@@ -263,8 +266,9 @@
 		</section>
 
 		<!-- How Can I Be Reached? Section -->
-		<!-- TODO Add phone number and email functions and remove white backgrounds from images -->
+		<!-- TODO Add phone number and email functions-->
 
+<div class="container-fluid">
 		<section id="howCanIBeReachedSection">
 			<div class="row py-5 py-md-3 py-sm-0 text-muted">
 				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2 p-xs-1">
@@ -274,22 +278,22 @@
 						<div class="row">
 							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
-										<img class="img-fluid d-block" src="images/email.png" alt="Email Contact" />
+										<img class="img-fluid d-block" src="images/email.svg" alt="Email Contact" />
 									</a>
 							</div>
 							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
-										<img class="img-fluid d-block" src="images/phone.png" alt="Phone Contact" />
+										<img class="img-fluid d-block" src="images/phone.svg" alt="Phone Contact" />
 									</a>
 							</div>
 							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
-										<img class="img-fluid d-block" src="images/linkedIn.png" alt="LinkedIn Page" />
+										<img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" />
 									</a>
 							</div>
 							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://github.com/WilliamIsengard/" target=”_blank”>
-										<img class="img-fluid d-block" src="images/github.png" alt="Github Repository" />
+										<img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" />
 									</a>
 							</div>
 						</div>
@@ -297,9 +301,9 @@
 				</div>
 			</div>
 		</section>
+	</div>
 
 		<!--Page Footer -->
-
 		<div class="row py-5 py-md-3 py-sm-1 text-white text-center" id="footerRow">
 			<div class="col">
 				<footer>William Isengard- Full Stack Web Developer</footer>
