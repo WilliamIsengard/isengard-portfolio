@@ -86,8 +86,8 @@
     <!--Who Am I? Section -->
 
     <section id="whoAmISection">
-      <div class="row pt-5 text-white" id="whoAmIRow">
-        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
+      <div class="row py-5 text-white" id="whoAmIRow">
+        <div class="col-lg-6 col-md-8 col-sm-10 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Who Am I?</h1>
           <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br><br>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br><br>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate
             about coding and excited to help your business grow through an innovative and effective web presense.</p>
@@ -132,8 +132,8 @@
 
     <div class="container-fluid">
       <section id="whatDoIDoSection">
-        <div class="row pb-lg-5 pb-md-4 pb-sm-2 pt-5 text-muted">
-          <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto p-lg-4 p-md-3 p-sm-2 p-1">
+        <div class="row py-5 text-muted">
+          <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto p-4 p-md-3 p-sm-2">
             <h1>What Do I Do?</h1>
             <div class="info">
               <p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.<br><br>I specialize in leveraging my "soft skills" in marketing, business management, finance, project management, sales, and customer service to enhance my technical expertise to produce deliverables that wow a client.</p>
@@ -141,7 +141,7 @@
               <!--Image Carousel -->
 
               <div class="row">
-                <div class="col-md-6 col-sm-5 col-4 mx-auto p-ld-4 p-md-3 p-sm-2 p-2">
+                <div class="col-md-6 col-sm-5 col-4 mx-auto">
 
                   <!--Carousel Wrapper-->
 
@@ -265,8 +265,8 @@
 
     <div class="container-fluid">
       <section id="howCanIBeReachedSection">
-        <div class="row py-5 py-md-3 py-sm-0 text-muted">
-          <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2 p-1">
+        <div class="row py-5 text-muted">
+          <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
             <h1 id="howCanIBeReached">How Can I Be Reached?</h1>
             <div class="info">
               <p>I can be reached via the channels below. Give me a ring and I will get back to you right away. Thanks!</p>
