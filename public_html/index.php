@@ -63,7 +63,7 @@
               <a class="nav-link" href="#canIHelpYouSection">Can I Help You?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#howCanIBeReachedSection">How Can I Be Reached?</a>
+              <a class="nav-link" href="#howCanYouLearnMoreSection">How Can You Learn More?</a>
             </li>
           </ul>
         </div>
@@ -203,7 +203,7 @@
         <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Can I Help You?</h1>
           <div class="info">
-            <p>I am excited for opportunities to help grow a business and continue to expand my developer skillset.<br><br>Please don't hesitate to reach out to me and we can discuss ways I can help.</p>
+            <p>I am excited for opportunities to help grow your business and continue to expand my developer skillset.<br><br>Please don't hesitate to reach out to me and we can discuss ways I can help.<br><br>Thanks so much!</p>
 
             <!-- Contact Form -->
 
@@ -260,27 +260,16 @@
       </div>
     </section>
 
-    <!-- How Can I Be Reached? Section -->
-    <!-- TODO Add phone number and email functions-->
+    <!-- How Can You Learn More? Section -->
 
     <div class="container-fluid">
-      <section id="howCanIBeReachedSection">
+      <section id="howCanYouLearnMoreSection">
         <div class="row py-5 text-muted">
           <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
-            <h1 id="howCanIBeReached">How Can I Be Reached?</h1>
+            <h1 id="howCanYouLearnMore">How Can You Learn More?</h1>
             <div class="info">
-              <p>I can be reached via the channels below. Give me a ring and I will get back to you right away. Thanks!</p>
+              <p>You can find additional information about my past projects and work experience via the links below.</p>
               <div class="row">
-                <div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
-                  <a href="">
-                    <img class="img-fluid d-block" src="images/email.svg" alt="Email Contact" />
-                  </a>
-                </div>
-                <div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
-                  <a href="">
-                    <img class="img-fluid d-block" src="images/phone.svg" alt="Phone Contact" />
-                  </a>
-                </div>
                 <div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
                   <a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
                     <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" />
@@ -299,6 +288,7 @@
     </div>
 
     <!--Page Footer -->
+
     <div class="row py-5 py-md-3 py-sm-1 text-white text-center" id="footerRow">
       <div class="col">
         <footer>William Isengard- Full Stack Web Developer</footer>
