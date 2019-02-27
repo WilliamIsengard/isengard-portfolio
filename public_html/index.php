@@ -35,6 +35,9 @@
   <!-- Javascript -->
   <script src="js/script.js" crossorigin="anonymous"></script>
 
+  <!-- Scroll-Down JS -->
+  <script src="scroll-down.js"></script>
+
   <title>William Isengard Fullstack Web Developer</title>
 
 </head>
@@ -128,6 +131,20 @@
       </div>
     </section>
 
+    <!-- Scroll Down --> <!-- TODO Review including this -->
+
+    <!-- <section class="company-heading intro-type" id="parallax-one">
+  <div class="container">
+    <div class="row product-title-info" id="parallax-one">
+      <div class="col-md-12">
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#howCanYouLearnMore"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="parallax" id="parallax-cta" style="background-image:url(https://www.solodev.com/assets/anchor/company-hero2.jpg);"></div>
+</section> -->
+
+
     <!-- What Do I Do? Section -->
 
     <div class="container-fluid">
@@ -141,7 +158,7 @@
               <!--Image Carousel -->
 
               <div class="row">
-                <div class="col-md-6 col-sm-5 col-4 mx-auto">
+                <div class="col-md-7 col-sm-6 col-5 mx-auto">
 
                   <!--Carousel Wrapper-->
 
@@ -270,12 +287,12 @@
             <div class="info">
               <p>You can find additional information about my past projects and work experience via the links below.</p>
               <div class="row">
-                <div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
+                <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
                     <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" />
                   </a>
                 </div>
-                <div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
+                <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://github.com/WilliamIsengard/" target=”_blank”>
                     <img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" />
                   </a>
