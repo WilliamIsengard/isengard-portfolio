@@ -27,13 +27,13 @@ nav {
 /* Creates background image and specifies size, position, and attachment */
 #main {
   background-image: url("../images/background.jpg");
-  /* width: 100vw; */
   background-position: top;
   background-repeat: repeat;
   background-size: 100vw auto;
   background-attachment: fixed;
 }
 
+/* Creates splatter background image and specifies size, position, and attachment */
 #headshotrow {
   background-image: url("../images/splatter.png");
   background-position: top 5em center;
@@ -59,7 +59,6 @@ nav {
 
 /* Who Am I? Section shadows, background color, and opacity */
 #whoAmIRow {
-  /* font-size: 18px; */
   -webkit-box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
   -moz-box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
   box-shadow: 0px -10px 5px 0px rgba(140, 113, 43, 0.7), 0px 10px 5px 0px rgba(140, 113, 43, 0.7);
@@ -84,7 +83,6 @@ nav {
   background-color: #4699c1;
   opacity: .95;
 }
-/*rgba(0, 0, 0, 0.21) #2f647d*/
 
 /* Headshot shadows */
 #headshot
