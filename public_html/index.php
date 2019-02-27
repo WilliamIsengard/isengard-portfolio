@@ -73,17 +73,15 @@
 		<!-- Header -->
 
 		<div class="container-fluid">
-			<div class="row-fluid" id="headshotrow">
-				<div class="col-lg-4 col-md-6 col-sm-8 col-xs-10 mx-auto mt-5 pt-5">
-					<img id="headshot" class="img-fluid" src="images/splatter2.png" alt="William Isengard Headshot With Splatter Background">
-				</div>
-			</div>
-			<div class="row-fluid" id="nametagrow">
-				<div class="col-lg-2 col-md-4 col-sm-6 col-xs-7 mx-auto mt-1 py-5">
+			<div class="row position-top" id="headshotrow">
+				<div class="col-lg-3 col-md-4 col-sm-5 col-6 mx-auto mt-5 py-5">
+					<img id="headshot" class="img-fluid rounded-circle" src="images/headshot.jpg" alt="William Isengard Headshot">
+						<br>
+						<br>
 					<img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
 				</div>
 			</div>
-		</div>
+			</div>
 
 		<!--Who Am I? Section -->
 
@@ -136,7 +134,7 @@
 <div class="container-fluid">
 		<section id="whatDoIDoSection">
 			<div class="row pb-lg-5 pb-md-4 pb-sm-2 pt-5 text-muted">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-12 mx-auto p-lg-4 p-md-3 p-sm-2 p-xs-1">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto p-lg-4 p-md-3 p-sm-2 p-1">
 					<h1>What Do I Do?</h1>
 					<div class="info">
 						<p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.</p>
@@ -145,7 +143,7 @@
 						<!--Image Carousel -->
 
 						<div class="row">
-							<div class="col-md-6 col-sm-5 col-xs-4 mx-auto p-ld-4 p-md-3 p-sm-2 p-xs-2">
+							<div class="col-md-6 col-sm-5 col-4 mx-auto p-ld-4 p-md-3 p-sm-2 p-2">
 
 								<!--Carousel Wrapper-->
 
@@ -204,7 +202,7 @@
 
 		<section id="canIHelpYouSection">
 			<div class="row py-5 text-white" id="canIHelpYouRow">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
 					<h1>Can I Help You?</h1>
 					<div class="info">
 						<p>I am excited for opportunities to help grow a business and continue to expand my developer skillset.</p>
@@ -271,27 +269,27 @@
 <div class="container-fluid">
 		<section id="howCanIBeReachedSection">
 			<div class="row py-5 py-md-3 py-sm-0 text-muted">
-				<div class="col-lg-6 col-md-8 col-sm-10 col-xs-11 mx-auto p-4 p-md-3 p-sm-2 p-xs-1">
+				<div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2 p-1">
 					<h1 id="howCanIBeReached">How Can I Be Reached?</h1>
 					<div class="info">
 						<p>I can be reached via the channels below. Give me a ring and I will get back to you right away. Thanks!</p>
 						<div class="row">
-							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
+							<div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
 										<img class="img-fluid d-block" src="images/email.svg" alt="Email Contact" />
 									</a>
 							</div>
-							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
+							<div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
 									<a href="">
 										<img class="img-fluid d-block" src="images/phone.svg" alt="Phone Contact" />
 									</a>
 							</div>
-							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
+							<div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
 										<img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" />
 									</a>
 							</div>
-							<div class="col-md-2 col-sm-3 col-xs-2 mx-auto py-md-2 py-sm-3">
+							<div class="col-md-2 col-sm-3 col-2 mx-auto py-md-2 py-sm-3">
 									<a href="https://github.com/WilliamIsengard/" target=”_blank”>
 										<img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" />
 									</a>
