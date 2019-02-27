@@ -37,14 +37,14 @@ $(document).ready(function(){
 
     // error messages to display when rules are not followed
     messages: {
-      name: {
+      contactName: {
         required: "Please enter your name."
       },
-      email: {
+      contactEmail: {
         email: "Please enter your email address.",
         required: "Please enter your email address."
       },
-      message: {
+      contactMessage: {
         required: "Please enter a message to send me.",
         maxlength: "Message limited to 2000 characters max.",
         minlenth: "Please enter a message with at least 10 characters."
