@@ -32,12 +32,6 @@
   <!-- Google reCAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
 
-  <!-- Javascript -->
-  <script src="js/script.js" crossorigin="anonymous"></script>
-
-  <!-- Scroll-Down JS -->
-  <script src="scroll-down.js"></script>
-
   <title>William Isengard Fullstack Web Developer</title>
 
 </head>
@@ -130,20 +124,6 @@
         </div>
       </div>
     </section>
-
-    <!-- Scroll Down --> <!-- TODO Review including this -->
-
-    <!-- <section class="company-heading intro-type" id="parallax-one">
-  <div class="container">
-    <div class="row product-title-info" id="parallax-one">
-      <div class="col-md-12">
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#howCanYouLearnMore"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
-      </div>
-    </div>
-  </div>
-  <div class="parallax" id="parallax-cta" style="background-image:url(https://www.solodev.com/assets/anchor/company-hero2.jpg);"></div>
-</section> -->
-
 
     <!-- What Do I Do? Section -->
 
