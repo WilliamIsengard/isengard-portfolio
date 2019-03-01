@@ -11,10 +11,10 @@
   <link rel="stylesheet" href="styles/style.css" type="text/css" />
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
 
   <!-- Fontawesome CSS -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
   <!-- Bootstrap Files: jQuery, Popper.js, and Bootstrap JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,6 +28,9 @@
 
   <!-- Your JavaScript Form Validator -->
   <script src="js/form-validate.js"></script>
+
+	<!-- Javascript File -->
+	<script src="js/script.js"></script>
 
   <!-- Google reCAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -72,10 +75,10 @@
     <div class="container-fluid">
       <div class="row position-top" id="headshotrow">
         <div class="col-lg-3 col-md-4 col-sm-5 col-6 mx-auto mt-5 py-5">
-          <img id="headshot" class="img-fluid rounded-circle" src="images/headshot.jpg" alt="William Isengard Headshot">
-          <br>
-          <br>
-          <img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr">
+          <img id="headshot" class="img-fluid rounded-circle" src="images/headshot.jpg" alt="William Isengard Headshot" />
+          <br/>
+          <br/>
+          <img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr" />
         </div>
       </div>
     </div>
@@ -86,7 +89,7 @@
       <div class="row py-5 text-white" id="whoAmIRow">
         <div class="col-lg-6 col-md-8 col-sm-10 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Who Am I?</h1>
-          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br><br>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br><br>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate
+          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br/><br/>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br/><br/>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate
             about coding and excited to help your business grow through an innovative and effective web presense.</p>
 
           <!-- Work History Images -->
@@ -95,27 +98,27 @@
             <div class="row">
 
               <div id="jwsmartsolutions" class="col-2 col-md p-2">
-                <img id="jwSmartSolutionsImg" class="img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions">
+                <img id="jwSmartSolutionsImg" class="img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions" />
               </div>
 
               <div id="nmsolargroup" class="col-2 col-md p-2">
-                <img id="nmSolarGroupImg" class="img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group">
+                <img id="nmSolarGroupImg" class="img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group" />
               </div>
 
               <div id="solarcity" class="col-2 col-md p-2">
-                <img id="solarCityImg" class="img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity">
+                <img id="solarCityImg" class="img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity" />
               </div>
 
               <div id="hpinc" class="col-2 col-md p-2">
-                <img id="hpIncImg" class="img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc">
+                <img id="hpIncImg" class="img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc" />
               </div>
 
               <div id="unm" class="col-2 col-md p-2">
-                <img id="unmImg" class="img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM">
+                <img id="unmImg" class="img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM" />
               </div>
 
               <div id="uofp" class="col-2 col-md p-2">
-                <img id="uofpImg" class="img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix">
+                <img id="uofpImg" class="img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix" />
               </div>
 
             </div>
@@ -133,7 +136,7 @@
           <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto p-4 p-md-3 p-sm-2">
             <h1>What Do I Do?</h1>
             <div class="info">
-              <p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.<br><br>I specialize in leveraging my "soft skills" in marketing, business management, finance, project management, sales, and customer service to enhance my technical expertise to produce deliverables that wow a client.</p>
+              <p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.<br/><br/>I specialize in leveraging my "soft skills" in marketing, business management, finance, project management, sales, and customer service to enhance my technical expertise to produce deliverables that wow a client.</p>
 
               <!--Image Carousel -->
 
@@ -148,27 +151,27 @@
 
                     <div class="carousel-inner" role="listbox">
                       <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/php.png" alt="PHP">
+                        <img class="d-block w-100" src="images/php.png" alt="PHP" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/javascript.png" alt="JavaScript">
+                        <img class="d-block w-100" src="images/javascript.png" alt="JavaScript" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/html.png" alt="HTML">
+                        <img class="d-block w-100" src="images/html.png" alt="HTML" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/css.png" alt="CSS">
+                        <img class="d-block w-100" src="images/css.png" alt="CSS" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/bootstrap.png" alt="Bootstrap">
+                        <img class="d-block w-100" src="images/bootstrap.png" alt="Bootstrap" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/angular.png" alt="Angular">
+                        <img class="d-block w-100" src="images/angular.png" alt="Angular" />
                       </div>
 
                     </div>
@@ -200,7 +203,7 @@
         <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Can I Help You?</h1>
           <div class="info">
-            <p>I am excited for opportunities to help grow your business and continue to expand my developer skillset.<br><br>Please don't hesitate to reach out to me and we can discuss ways I can help.<br><br>Thanks so much!</p>
+            <p>I am excited for opportunities to help grow your business and continue to expand my developer skillset.<br/><br/>Please don't hesitate to reach out to me and we can discuss ways I can help.<br/><br/>Thanks so much!</p>
 
             <!-- Contact Form -->
 
