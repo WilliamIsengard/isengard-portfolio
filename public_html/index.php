@@ -272,12 +272,12 @@
               <div class="row">
                 <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
-                    <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" />
+                    <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" /> <!-- Image provided by www.fontawesome.com -->
                   </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://github.com/WilliamIsengard/" target=”_blank”>
-                    <img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" />
+                    <img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" /> <!-- Image provided by www.fontawesome.com -->
                   </a>
                 </div>
               </div>
