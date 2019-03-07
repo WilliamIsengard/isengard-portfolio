@@ -150,27 +150,27 @@
 
                     <div class="carousel-inner" role="listbox">
                       <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/php.png" alt="PHP" />
+                        <img class="d-block w-100" src="images/php.png" alt="PHP (Image courtesy of pngimg.com)" title="PHP (Image courtesy of pngimg.com)" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/javascript.png" alt="JavaScript" />
+                        <img class="d-block w-100" src="images/javascript.png" alt="JavaScript (Image courtesy of pluspng.com)" title="JavaScript (Image courtesy of pluspng.com)" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/html.png" alt="HTML" />
+                        <img class="d-block w-100" src="images/html.png" alt="HTML (Image courtesy of pixabay.com)" title="HTML (Image courtesy of pixabay.com)" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/css.png" alt="CSS" />
+                        <img class="d-block w-100" src="images/css.png" alt="CSS (Image courtesy of pixabay.com)" title="CSS (Image courtesy of pixabay.com)" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/bootstrap.png" alt="Bootstrap" />
+                        <img class="d-block w-100" src="images/bootstrap.png" alt="Bootstrap (Image courtesy of pluspng.com)" title="Bootstrap (Image courtesy of pluspng.com)" />
                       </div>
 
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="images/angular.png" alt="Angular" />
+                        <img class="d-block w-100" src="images/angular.png" alt="Angular (Image courtesy of angular.io)" title="Angular (Image courtesy of angular.io)" />
                       </div>
 
                     </div>
@@ -271,12 +271,12 @@
               <div class="row">
                 <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://www.linkedin.com/in/william-isengard/" target=”_blank”>
-                    <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page" /> <!-- Image provided by www.fontawesome.com -->
+                    <img class="img-fluid d-block" src="images/linkedin.svg" alt="LinkedIn Page (Image courtesy of fontawesome.com)" title="LinkedIn Page (Image courtesy of fontawesome.com)" />
                   </a>
                 </div>
                 <div class="col-md-3 col-sm-4 col-3 mx-auto py-md-2 py-sm-3">
                   <a href="https://github.com/WilliamIsengard/" target=”_blank”>
-                    <img class="img-fluid d-block" src="images/github.svg" alt="Github Repository" /> <!-- Image provided by www.fontawesome.com -->
+                    <img class="img-fluid d-block" src="images/github.svg" alt="Github Repository (Image courtesy of fontawesome.com)" title="Github Repository (Image courtesy of fontawesome.com)" />
                   </a>
                 </div>
               </div>
