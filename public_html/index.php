@@ -89,8 +89,7 @@
       <div class="row py-5 text-white" id="whoAmIRow">
         <div class="col-lg-6 col-md-8 col-sm-10 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Who Am I?</h1>
-          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br/><br/>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br/><br/>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate
-            about coding and excited to help your business grow through an innovative and effective web presense.</p>
+          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br/><br/>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br/><br/>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate about coding and excited to help your business grow through an innovative and effective web presence.</p>
 
           <!-- Work History Images -->
 
@@ -292,7 +291,7 @@
     <div class="row py-5 py-md-3 py-sm-1 text-white text-center" id="footerRow">
       <div class="col">
         <footer>William Isengard- Full Stack Web Developer</footer>
-      </div>
+		</div>
     </div>
 
   </div>
