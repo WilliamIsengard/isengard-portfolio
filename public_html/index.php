@@ -29,8 +29,8 @@
   <!-- Your JavaScript Form Validator -->
   <script src="js/form-validate.js"></script>
 
-	<!-- Javascript File -->
-	<script src="js/script.js"></script>
+  <!-- Javascript File -->
+  <script src="js/script.js"></script>
 
   <!-- Google reCAPTCHA -->
   <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -76,8 +76,8 @@
       <div class="row position-top" id="headshotrow">
         <div class="col-lg-3 col-md-4 col-sm-5 col-6 mx-auto mt-5 py-5">
           <img id="headshot" class="img-fluid rounded-circle" src="images/headshot.jpg" alt="William Isengard Headshot" />
-          <br/>
-          <br/>
+          <br />
+          <br />
           <img id="nametag" class="img-fluid rounded d-block" src="images/nametag.png" alt="William Isengard Fullstack Web Developr" />
         </div>
       </div>
@@ -89,7 +89,7 @@
       <div class="row py-5 text-white" id="whoAmIRow">
         <div class="col-lg-6 col-md-8 col-sm-10 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Who Am I?</h1>
-          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br/><br/>In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br/><br/>I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate about coding and excited to help your business grow through an innovative and effective web presence.</p>
+          <p>Howdy! My name is William Isengard and I am a fullstack web developer. <br /><br />In my previous life I received a Bachelor's of Arts degree and 2/3 of an MBA and held positions ranging from tech consultant, account manager, energy consultant, business development manager, and CEO before making the leap to pursue a life-long goal of being a coder. <br /><br />I attended Deep Dive Coding's Fullstack Web Development Bootcamp and built a foundation for my new career. I am passionate about coding and excited to help your business grow through an innovative and effective web presence.</p>
 
           <!-- Work History Images -->
 
@@ -135,7 +135,7 @@
           <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto p-4 p-md-3 p-sm-2">
             <h1>What Do I Do?</h1>
             <div class="info">
-              <p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.<br/><br/>I specialize in leveraging my "soft skills" in marketing, business management, finance, project management, sales, and customer service to enhance my technical expertise to produce deliverables that wow a client.</p>
+              <p>My focus is programming modern, in-demand software, websites, and apps. I am experienced in the LAMP stack, PHP, HTML, CSS, JavaScript, Git, Object Oriented Programming, etc.<br /><br />I specialize in leveraging my "soft skills" in marketing, business management, finance, project management, sales, and customer service to enhance my technical expertise to produce deliverables that wow a client.</p>
 
               <!--Image Carousel -->
 
@@ -202,7 +202,7 @@
         <div class="col-lg-6 col-md-8 col-sm-10 col-11 mx-auto p-4 p-md-3 p-sm-2">
           <h1>Can I Help You?</h1>
           <div class="info">
-            <p>I am excited for opportunities to help grow your business and continue to expand my developer skillset.<br/><br/>Please don't hesitate to reach out to me and we can discuss ways I can help.<br/><br/>Thanks so much!</p>
+            <p>I am excited for opportunities to help grow your business and continue to expand my developer skillset.<br /><br />Please don't hesitate to reach out to me and we can discuss ways I can help.<br /><br />Thanks so much!</p>
 
             <!-- Contact Form -->
 
@@ -291,7 +291,7 @@
     <div class="row py-5 py-md-3 py-sm-1 text-white text-center" id="footerRow">
       <div class="col">
         <footer>William Isengard- Full Stack Web Developer</footer>
-		</div>
+      </div>
     </div>
 
   </div>
