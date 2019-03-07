@@ -97,27 +97,27 @@
             <div class="row">
 
               <div id="jwsmartsolutions" class="col-2 col-md p-2">
-                <img id="jwSmartSolutionsImg" class="img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions" />
+                <img id="jwSmartSolutionsImg" class="img-fluid rounded-circle d-block shadow" src="images/jwSmartSolutions.png" alt="JW Smart Solutions (Image courtesy of jwsmartsolutions.com)" title="JW Smart Solutions (Image courtesy of jwsmartsolutions.com)" />
               </div>
 
               <div id="nmsolargroup" class="col-2 col-md p-2">
-                <img id="nmSolarGroupImg" class="img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group" />
+                <img id="nmSolarGroupImg" class="img-fluid rounded-circle d-block shadow" src="images/nmSolarGroup.jpg" alt="NM Solar Group (Image courtesy of nmsolargroup.com)" title="NM Solar Group (Image courtesy of nmsolargroup.com)" />
               </div>
 
               <div id="solarcity" class="col-2 col-md p-2">
-                <img id="solarCityImg" class="img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity" />
+                <img id="solarCityImg" class="img-fluid rounded-circle d-block shadow" src="images/solarCity.png" alt="SolarCity (Image courtesy of kisspng.com)" title="SolarCity (Image courtesy of kisspng.com)" />
               </div>
 
               <div id="hpinc" class="col-2 col-md p-2">
-                <img id="hpIncImg" class="img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc" />
+                <img id="hpIncImg" class="img-fluid rounded-circle d-block shadow" src="images/hpInc.png" alt="HP Inc (Image courtesy of hp.com)" title="HP Inc (Image courtesy of hp.com)" />
               </div>
 
               <div id="unm" class="col-2 col-md p-2">
-                <img id="unmImg" class="img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM" />
+                <img id="unmImg" class="img-fluid rounded-circle d-block shadow" src="images/unm.jpg" alt="UNM (Image courtesy of unm.edu)" title="UNM (Image courtesy of unm.edu)" />
               </div>
 
               <div id="uofp" class="col-2 col-md p-2">
-                <img id="uofpImg" class="img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix" />
+                <img id="uofpImg" class="img-fluid rounded-circle d-block shadow" src="images/uofp.jpg" alt="University of Phoenix (Image courtesy of freebiesupply.com)" title="University of Phoenix (Image courtesy of freebiesupply.com)" />
               </div>
 
             </div>
