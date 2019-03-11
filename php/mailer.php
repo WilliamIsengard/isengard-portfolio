@@ -8,7 +8,7 @@
  * @author William Isengard <william.isengard@gmail.com>
  **/
 // require all composer dependencies
-require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
+require_once(dirname(__DIR__, 1) . "/vendor/autoload.php");
 // require mail-config.php
 require_once("mail-config.php");
 
